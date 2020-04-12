@@ -14,9 +14,9 @@ body {
       top: 0;
       left: 0;
       width: 100%;
+      background: white;
       background: rgb(7, 1, 18);
-      box-shadow: 0 2px 0 rgb(3,3,3);
-    
+      box-shadow: 0 2px 0 rgb(3,3,3);    
     }
     
     #nav-list {
@@ -29,14 +29,16 @@ body {
       display: block;
       font-size: 1.6rem;
       padding: 0.4rem;
-      color: rgb(233, 195, 250);
-      text-shadow: 1px 2px rgb(65, 37, 87);
+      /*color: rgb(233, 195, 250);
+      text-shadow: 1px 2px rgb(65, 37, 87);*/
+      color: white;
       text-decoration: none;
      
     }
     
     #nav-list a:hover {
-      color: white;
+      color: rgb(233, 195, 250);
+      text-shadow: 1px 2px rgb(65, 37, 87);
      
     }
     
@@ -50,11 +52,10 @@ body {
     }
     
     #welcome-section {
-    background: url("http://www.talencia.cat/mypics/max/1/16495_purple-cloud-background.png");
+    background:url("https://cdn.hipwallpaper.com/m/15/10/eSfDgj.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: right bottom;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -69,8 +70,8 @@ body {
     font-family: 'Dancing Script', cursive;;
     font-weight: 700;
     font-size: 5.1rem;
-    color: rgb(233, 195, 250);
-    text-shadow: 1px 1px 2px rgb(0, 7, 5), 0 0 1em rgb(0, 0, 0), 0 0 0.2em blue;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 7, 5), 0 0 1em rgb(0, 0, 0), 0 0 0.2em purple;
     padding: 3rem;
     }
     
@@ -81,7 +82,7 @@ body {
       font-size: 2.1rem;
       font-weight: 300;
       font-style: italic;
-      color: rgb(7, 1, 18);
+      color: white;
       
     }
     
@@ -107,21 +108,22 @@ body {
     .project-tile {
       
       font-size: 1.3rem;
-      color: rgb(233, 195, 250);
+      color: white;
       text-decoration: none;
       
     }
     
     .project-tile:hover {
       font-size: 1.34rem;
-      color: rgb(7, 1, 18);
+      color: rgb(233, 195, 250);
+      text-shadow: 1px 2px rgb(65, 37, 87);
     }
     
     h2{
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 2.4rem;
-    color: rgb(7, 1, 18);
+    color: white;
     }
     
     #contact {
